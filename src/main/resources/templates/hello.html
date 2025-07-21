@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            text-align: center;        /* Center the content horizontally */
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 th:text="${message}">Hello from Jenkins!</h1>
+</body>
+</html>
